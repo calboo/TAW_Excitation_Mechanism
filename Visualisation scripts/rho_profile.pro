@@ -1,4 +1,4 @@
-pro rhofile, ds
+pro rho_profile, ds
 
 ;; DESCRIPTION
 
