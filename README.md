@@ -38,7 +38,12 @@ These files are used to reproduce a wider variantion of the original simulation.
 
 The visualisation script files are all located in the Visualisation_scripts folder. These IDL scripts were used to produce the figures and videos in https://www.nature.com/articles/s41550-021-01354-8 and its supplementary material. The purpose of each script is as follows:
 
-- density_ring.pro - plots a coloured contour of density variation around a ring of radius 2 Mm as it varies with time throughout the simulation, used to produce third panel in Figure S6 in the supplementary material
+- density_ring.pro - plots a coloured contour of density variation around a ring of radius 2 Mm as it varies with time throughout the simulation, used to produce the third panel in Figure S6 in the supplementary material.
+- fields.pro - used to confirm the equivalence of the analytic magnetic coordinates and the magnetic field used in the simulation. Also plots fields lines over a coloured contour of magnetic potential, used to produce Figure S2 in the supplementary material.
+- stream_b_mag.pro - plots partial magnetic field lines over a coloured contour of the total magnetic field strength at a particular height and time, used with outputs from the wide simulation to produce Figure 1C in the main body and Figure S5 in the supplementary material.
+- stream_b_rho.pro - plots partial magnetic field lines over a coloured contour of the density at a particular height and time, used with outputs from the original simulation to produce Figure S4 in the supplementary material.
+- stream_diff.pro - plots velocity streamlines over a coloured contour of density contrast, relative to the initial density, at a particular height and time, used with outputs from the original simulation to produce Figure 4 in the main body and the first two panels in Figure S6 in the supplementary material.
+- stream_v_mag.pro - plots velocity streamlines over a coloured contour of the total magnetic field strength at a particular height and time, used with outputs from the wide simulation to produce Figure S5 in the supplementary material.
 
 The scripts are all written in IDL and require the Start.pro script distributed with Lare3d in order to run, in addition to the SDF and IDL directories distributed with Lare3d that allow the Lare3d output files to be read within IDL. The user must initiate idl with the command idl Start.pro and can then proceed to run the chosen visualisation script. 
 
