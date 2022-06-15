@@ -1,4 +1,4 @@
-pro tempprof, ds
+pro temp_profile, ds
 
 ;; DESCRIPTION
 
