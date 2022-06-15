@@ -21,12 +21,14 @@ To utilise these files in Lare3d the first three should replace files of the sam
 
 These files are used to reproduce the original simulation described in the paper. This simulation was used to produce all figures and videos with the exception of figure 1c in the main body and figure 5 in the supplementary material. The simulation parameters that can be changed can all be found in the shared_data.F90 file, under TAW mode conversion simulation parameters, and are as follows:
 
-- H - the magnetic scale height
-- rampsteep - the gradient at which density increases across the tube boundary
-- vortexrad - the radius of the central high density tube
-- omega - the fundamental frequency for wave driving at the lower boundary
-- a0 - the amplitude of wave driving at the lower boundary
-- t0 - the rampup time for wave driving at the lower boundary
+| Parameter | Description |
+| --- | --- |
+| H | the magnetic scale height|
+| rampsteep | the gradient at which density increases across the tube boundary|
+| vortexrad | the radius of the central high density tube|
+| omega | the fundamental frequency for wave driving at the lower boundary|
+| a0 | the amplitude of wave driving at the lower boundary|
+| t0 | the rampup time for wave driving at the lower boundary|
 
 Note that all parameters are given in normalised units, see Lare3d manual for more info.
 
@@ -37,7 +39,6 @@ These files are used to reproduce a wider variantion of the original simulation.
 ## Visualisation files
 
 The visualisation script files are all located in the Visualisation_scripts folder. These IDL scripts were used to produce the figures and videos in https://www.nature.com/articles/s41550-021-01354-8 and its supplementary material. The purpose of each script is as follows:
-
 
 | Script | Description |
 | --- | --- |
@@ -52,18 +53,6 @@ The visualisation script files are all located in the Visualisation_scripts fold
 | temp_profile | plots a colourful contour of the temperature profile across a vertical cross-section through the centre of the domain, used to produce the right panel of Figure S3 in the  supplementary material.|
 | video_b_rho | creates an mp4 video showing partial magnetic field lines plotted over a coloured contour of the density at a particular height throughout the simulation, used to produce supplemenary videos 4,5 and 6.|
 | video_v_rho | creates an mp4 video showing velocity streamlines plotted over a coloured contour of the density at a particular height throughout the simulation, used to produce supplemenary videos 1,2 and 3.|
-
-- density_ring.pro - plots a coloured contour of density variation around a ring of radius 2 Mm as it varies with time throughout the simulation, used to produce the third panel in Figure S6 in the supplementary material.
-- fields.pro - used to confirm the equivalence of the analytic magnetic coordinates and the magnetic field used in the simulation. Also plots fields lines over a coloured contour of magnetic potential, used to produce Figure S2 in the supplementary material.
-- rho_profile - plots a colourful contour of the density profile across a vertical cross-section through the centre of the domain, used to produce the left panel of Figure S3 in the  supplementary material.
-- stream_b_mag.pro - plots partial magnetic field lines over a coloured contour of the total magnetic field strength at a particular height and time, used to produce Figure 1C in the main body and Figure S5 in the supplementary material.
-- stream_b_rho.pro - plots partial magnetic field lines over a coloured contour of the density at a particular height and time, used to produce Figure S4 in the supplementary material.
-- stream_diff.pro - plots velocity streamlines over a coloured contour of density contrast, relative to the initial density, at a particular height and time, used to produce Figure 4 in the main body and the first two panels in Figure S6 in the supplementary material.
-- stream_v_mag.pro - plots velocity streamlines over a coloured contour of the total magnetic field strength at a particular height and time, used to produce Figure S5 in the supplementary material.
-- stream_v_rho.pro - plots velocity streamlines over a coloured contour of the density at a particular height and time, used to produce Figure S4 in the supplementary material.
-- temp_profile - plots a colourful contour of the temperature profile across a vertical cross-section through the centre of the domain, used to produce the right panel of Figure S3 in the  supplementary material.
-- video_b_rho - creates an mp4 video showing partial magnetic field lines plotted over a coloured contour of the density at a particular height throughout the simulation, used to produce supplemenary videos 4,5 and 6.
-- video_v_rho - creates an mp4 video showing velocity streamlines plotted over a coloured contour of the density at a particular height throughout the simulation, used to produce supplemenary videos 1,2 and 3.
 
 The scripts are all written in IDL and require the Start.pro script distributed with Lare3d in order to run, in addition to the SDF and IDL directories distributed with Lare3d that allow the Lare3d output files to be read within IDL. The user must initiate idl with the command idl Start.pro and can then proceed to run the chosen visualisation script. 
 
