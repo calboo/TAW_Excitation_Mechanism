@@ -34,7 +34,14 @@ Note that all parameters are given in normalised units, see Lare3d manual for mo
 
 These files are used to reproduce a wider variantion of the original simulation. The purpose of this simulation was to show the TAWs in the context of the wider magnetic structure. This simulation was used to produce figure 1c in the main body and figure 5 in the supplementary material. The only real difference for this simulation is that the size of the domain is doubled in the horizontal x and y directions.
 
+## Visualisation files
 
+The visualisation script files are all located in the Visualisation_scripts folder. These IDL scripts were used to produce the figures and videos in https://www.nature.com/articles/s41550-021-01354-8 and its supplementary material. The purpose of each script is as follows:
 
+- density_ring.pro - plots a coloured contour of density variation around a ring of radius 2 Mm as it varies with time throughout the simulation, used to produce third panel in Figure S6 in the supplementary material
+
+The scripts are all written in IDL and require the Start.pro script distributed with Lare3d in order to run, in addition to the SDF and IDL directories distributed with Lare3d that allow the Lare3d output files to be read within IDL. The user must initiate idl with the command idl Start.pro and can then proceed to run the chosen visualisation script. 
+
+The user must also be sure that the simulation data is available for the simulation and the data is being read from the right location within the visualisation script.
 
 
