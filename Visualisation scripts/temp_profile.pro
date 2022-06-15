@@ -3,7 +3,7 @@ pro temp_profile, ds
 ;; DESCRIPTION
 
 ; IDL script used to produce the right panel of Figure S2
-; in the  supplementary material for the paper,
+; in the supplementary material for the paper,
 ; Torsional oscillations within a magnetic pore in the solar
 ; photosphere, M.Stangalini, R.Erdelyi, C.Boocock et al.
 
