@@ -38,6 +38,21 @@ These files are used to reproduce a wider variantion of the original simulation.
 
 The visualisation script files are all located in the Visualisation_scripts folder. These IDL scripts were used to produce the figures and videos in https://www.nature.com/articles/s41550-021-01354-8 and its supplementary material. The purpose of each script is as follows:
 
+
+| Script | Description |
+| --- | --- |
+| density_ring.pro | plots a coloured contour of density variation around a ring of radius 2 Mm as it varies with time throughout the simulation, used to produce the third panel in Figure S6 in the supplementary material.|
+| fields.pro | used to confirm the equivalence of the analytic magnetic coordinates and the magnetic field used in the simulation. Also plots fields lines over a coloured contour of magnetic potential, used to produce Figure S2 in the supplementary material.|
+| rho_profile | plots a colourful contour of the density profile across a vertical cross-section through the centre of the domain, used to produce the left panel of Figure S3 in the  supplementary material.|
+| stream_b_mag.pro | plots partial magnetic field lines over a coloured contour of the total magnetic field strength at a particular height and time, used to produce Figure 1C in the main body and Figure S5 in the supplementary material.|
+| stream_b_rho.pro | plots partial magnetic field lines over a coloured contour of the density at a particular height and time, used to produce Figure S4 in the supplementary material.|
+| stream_diff.pro | plots velocity streamlines over a coloured contour of density contrast, relative to the initial density, at a particular height and time, used to produce Figure 4 in the main body and the first two panels in Figure S6 in the supplementary material.|
+| stream_v_mag.pro | plots velocity streamlines over a coloured contour of the total magnetic field strength at a particular height and time, used to produce Figure S5 in the supplementary material.|
+| stream_v_rho.pro | plots velocity streamlines over a coloured contour of the density at a particular height and time, used to produce Figure S4 in the supplementary material.|
+| temp_profile | plots a colourful contour of the temperature profile across a vertical cross-section through the centre of the domain, used to produce the right panel of Figure S3 in the  supplementary material.|
+| video_b_rho | creates an mp4 video showing partial magnetic field lines plotted over a coloured contour of the density at a particular height throughout the simulation, used to produce supplemenary videos 4,5 and 6.|
+| video_v_rho | creates an mp4 video showing velocity streamlines plotted over a coloured contour of the density at a particular height throughout the simulation, used to produce supplemenary videos 1,2 and 3.|
+
 - density_ring.pro - plots a coloured contour of density variation around a ring of radius 2 Mm as it varies with time throughout the simulation, used to produce the third panel in Figure S6 in the supplementary material.
 - fields.pro - used to confirm the equivalence of the analytic magnetic coordinates and the magnetic field used in the simulation. Also plots fields lines over a coloured contour of magnetic potential, used to produce Figure S2 in the supplementary material.
 - rho_profile - plots a colourful contour of the density profile across a vertical cross-section through the centre of the domain, used to produce the left panel of Figure S3 in the  supplementary material.
