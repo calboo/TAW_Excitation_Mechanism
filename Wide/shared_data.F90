@@ -130,7 +130,7 @@ MODULE shared_data
 
 ! TAW mode conversion simulation parameters
 
-  REAL(num) :: H = 50 Mm
+  REAL(num) :: H = 50 
   REAL(num) :: rampsteep = 1.0_num
   REAL(num) :: vortexrad = 10.0_num
   REAL(num) :: omega = 0.02_num*pi
