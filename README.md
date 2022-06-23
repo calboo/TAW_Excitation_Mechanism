@@ -1,4 +1,4 @@
-# TAW_Mode_Conversion
+# TAW_Excitation_Mechanism
 
 Torsional oscillations in a magnetic pore in the photosphere were detected by Marco Stangalini using data from the Interferometric Bidimensional Spectropolarimeter (IBIS) instrument at the Dunn Solar Telescope. These oscillations were interpreted as torsional Alfv&egrave;n waves (TAWs). To support this interpretation I ran simulations in Lare3d, https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/tda/larexd/, that demonstrated a possible formation mechanism for m=1 TAWs in a tube like structure. 
 
