@@ -4,7 +4,7 @@ Torsional oscillations in a magnetic pore in the photosphere were detected by Ma
 
 To support this interpretation I ran simulations in Lare3d that demonstrated a possible formation mechanism for m=1 TAWs in a tube like structure. The Lare3d code, manual and IDL visualisation scripts can be found here:  https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/tda/larexd/.
 
-The simulations showed that any shear Alfv&egrave;n wave interacting with a tubular structure will induced kink waves that will subsequently mode couple to generate TAWs. This interaction was shown to be ubiquitous acroos a wide range of parameters for the tube and the wave driving. In this simulation we embedded a high density tube structure within a magnetic field with exponentially diverging field lines. We used a plasma beta of one to simulate conditions in the lower chromosphere. More details of the detection and of these simulations can be found in the paper: 
+The simulations showed that any shear Alfv&egrave;n wave interacting with a tubular structure will induce kink waves that will subsequently mode couple to generate TAWs. This interaction was shown to be ubiquitous acroos a wide range of parameters for the tube and the wave driving. In this simulation we embedded a high density tube structure within a magnetic field with exponentially diverging field lines. We used a plasma beta of one to simulate conditions in the lower chromosphere. More details of the detection and of these simulations can be found in the paper: 
 
 *Torsional oscillations within a magnetic pore in the solar photosphere*, https://www.nature.com/articles/s41550-021-01354-8.
 
