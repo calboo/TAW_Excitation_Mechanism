@@ -6,7 +6,7 @@ To support this interpretation I ran simulations in Lare3d that demonstrated a p
 
 The simulations showed that any shear Alfv&egrave;n wave interacting with a tubular structure will induced kink waves that will subsequently mode couple to generate TAWs. This interaction was shown to be ubiquitous acroos a wide range of parameters for the tube and the wave driving. In this simulation we embedded a high density tube structure within a magnetic field with exponentially diverging field lines. We used a plasma beta of one to simulate conditions in the lower chromosphere. More details of the detection and of these simulations can be found in the paper: 
 
-Torsional oscillations within a magnetic pore in the solar photosphere, https://www.nature.com/articles/s41550-021-01354-8.
+*Torsional oscillations within a magnetic pore in the solar photosphere*, https://www.nature.com/articles/s41550-021-01354-8.
 
 This repository contains all the files needed to reproduce the simulations described and the figures shown in the main body and supplementary material for this paper.
 
