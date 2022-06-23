@@ -19,7 +19,7 @@ The folders Original and Wide each contain four files:
 - boundary.f90
 - shared_data.F90
 
-To utilise these files in Lare3d the first three should replace files of the same name in the src directory and the fourth should replace a file of the same name in the *core* subdirectory which is found within the *src* directory. Information on how to run Lare3d is given in the Lare3d manual which can be accessed from the webpage https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/tda/larexd/.
+To utilise these files in Lare3d the first three should replace files of the same name in the *src* directory and the fourth should replace a file of the same name in the *core* subdirectory which is found within the *src* directory. Information on how to run Lare3d is given in the Lare3d manual which can be accessed from the webpage https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/tda/larexd/.
 
 ### Original
 
