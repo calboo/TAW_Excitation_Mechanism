@@ -102,7 +102,7 @@ MODULE shared_data
 ! Additional allocatable arrays for
 ! Storing initial values for simulation variables
 
-  REAL(num), DIMENSION(:,:,:), ALLOCATABLE :: rho0, energy0, bx0, by0, bz0,
+  REAL(num), DIMENSION(:,:,:), ALLOCATABLE :: rho0, energy0, bx0, by0, bz0
 
   INTEGER, PARAMETER :: data_dir_max_length = 64
   CHARACTER(LEN = data_dir_max_length) :: data_dir
